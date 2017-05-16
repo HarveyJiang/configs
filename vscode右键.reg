@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\*\shell\VSCode1120]
+@="用 vs_code 打开"
+"Icon"="D:\\portable\\VSCode-win32-1.12.0-insider\\Code_Insiders.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\VSCode1120\command]
+@="D:\\portable\\VSCode-win32-1.12.0-insider\\Code_Insiders.exe %1"
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode1120]
+@="用 vs_code 打开"
+"Icon"="D:\\portable\\VSCode-win32-1.12.0-insider\\Code_Insiders.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode1120\command]
+@="D:\\portable\\VSCode-win32-1.12.0-insider\\Code_Insiders.exe %1"
