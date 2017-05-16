@@ -4,5 +4,11 @@
 ## 一些软件常用配置
 
 
-Git remote add origin git@github.com:HarveyJiang/configs.git
+# git push
+
+git remote add origin git@github.com:HarveyJiang/configs.git
+git add .
+git commit -m "add file"
+git push origin master
+
 
