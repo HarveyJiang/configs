@@ -1,0 +1,23 @@
+﻿cmder
+
+安装chocolatey，运行如下命令即可：
+
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+安装软件命令 choco install softwareName，短写是 cinst softwareName。可安装的应用程序，可以参见其 Package列表。以下是window下开发常用的开发环境应用：
+
+choco install autohotkey.portable    #安装 AutoHotkey (Portable)
+choco install nodejs.install  #安装 node
+choco install git.install     #安装 git
+choco install ruby            #安装 ruby
+choco install python          #安装 python
+choco install jdk8            #安装 JDK8
+choco install googlechrome    #安装 Chrome
+choco install google-chrome-x64 #Google Chrome (64-bit only) 
+choco install firefox         #安装 firefox
+choco install notepadplusplus.install #安装 notepad++
+choco install Atom                    #安装 Atom
+choco install SublimeText3            #安装 SublimeText3
+
+set PATH=%ConEmuBaseDir%\Scripts;%PATH%
+set LANG=zh_CN.UTF8
+chcp 65001
